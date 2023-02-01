@@ -1,0 +1,33 @@
+<div class="page-with">
+  <div class="section-header text-center">
+    <h2>
+      {{ section.settings.title }}
+    </h2>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name" : "Liquid Basics",
+  "settings" : [
+    {
+    "type" : "text",
+    "id" : "title",
+    "label" : "Title",
+    "default" : "Liquid Basic Example"
+    }
+  ],
+  "presets":[
+    {
+      "name":"Liquid Basic Example",
+      "category": "Images"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
